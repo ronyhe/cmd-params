@@ -1,6 +1,13 @@
 {
   "name": "cmd-params",
+  "scripts": {
+    "test": "ava ./test/**/*.spec.*.js --verbose",
+    "build": "babel src --out-dir dist"
+  },
   "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/register": "^7.10.5",
     "ava": "^3.11.1",
     "eslint": "^7.6.0",
     "eslint-config-prettier": "^6.11.0",
@@ -10,5 +17,10 @@
   },
   "dependencies": {
     "ramda": "^0.27.1"
+  },
+  "ava": {
+    "require": [
+      "./test/setup.js"
+    ]
   }
 }
