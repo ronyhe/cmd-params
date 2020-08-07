@@ -1,0 +1,14 @@
+{
+  "name": "cmd-params",
+  "devDependencies": {
+    "ava": "^3.11.1",
+    "eslint": "^7.6.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5",
+    "steph-js": "^0.0.2"
+  },
+  "dependencies": {
+    "ramda": "^0.27.1"
+  }
+}
