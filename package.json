@@ -2,7 +2,9 @@
   "name": "cmd-params",
   "scripts": {
     "test": "ava ./test/**/*.spec.*.js --verbose",
-    "build": "babel src --out-dir dist"
+    "build": "babel src --out-dir dist",
+    "lint": "eslint ./test/**/* ./src/**/*",
+    "lint:fix": "eslint ./test/**/* ./src/**/* --fix"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.5",

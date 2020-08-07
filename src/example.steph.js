@@ -1,3 +1,3 @@
 module.exports = {
-  add1: add(1)
+    add1: add(1)
 }
