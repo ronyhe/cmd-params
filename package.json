@@ -3,6 +3,7 @@
   "scripts": {
     "test": "ava ./test/**/*.spec.*.js --verbose",
     "build": "babel src --out-dir dist",
+    "clean": "rm -rf dist",
     "lint": "eslint ./test/**/* ./src/**/*",
     "lint:fix": "eslint ./test/**/* ./src/**/* --fix"
   },
