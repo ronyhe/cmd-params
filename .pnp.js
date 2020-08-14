@@ -58,6 +58,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "virtual:8b8650ffaff150512b4e4924415f689b663f1ae0a1dbd797ada324f49d604d9ac408646a0d8adf05bcfe1a5460eff6639435f929b17214d6d844b16ae52ca2c8#npm:3.1.4"
       ],
       [
+        "eslint-plugin-ramda-env",
+        "virtual:8b8650ffaff150512b4e4924415f689b663f1ae0a1dbd797ada324f49d604d9ac408646a0d8adf05bcfe1a5460eff6639435f929b17214d6d844b16ae52ca2c8#npm:1.0.1"
+      ],
+      [
         "prettier",
         "npm:2.0.5"
       ],
@@ -84,6 +88,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:7.6.0"],
             ["eslint-config-prettier", "virtual:8b8650ffaff150512b4e4924415f689b663f1ae0a1dbd797ada324f49d604d9ac408646a0d8adf05bcfe1a5460eff6639435f929b17214d6d844b16ae52ca2c8#npm:6.11.0"],
             ["eslint-plugin-prettier", "virtual:8b8650ffaff150512b4e4924415f689b663f1ae0a1dbd797ada324f49d604d9ac408646a0d8adf05bcfe1a5460eff6639435f929b17214d6d844b16ae52ca2c8#npm:3.1.4"],
+            ["eslint-plugin-ramda-env", "virtual:8b8650ffaff150512b4e4924415f689b663f1ae0a1dbd797ada324f49d604d9ac408646a0d8adf05bcfe1a5460eff6639435f929b17214d6d844b16ae52ca2c8#npm:1.0.1"],
             ["prettier", "npm:2.0.5"],
             ["ramda", "npm:0.27.1"],
             ["steph-js", "npm:0.0.2"]
@@ -1324,6 +1329,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:7.6.0"],
             ["eslint-config-prettier", "virtual:8b8650ffaff150512b4e4924415f689b663f1ae0a1dbd797ada324f49d604d9ac408646a0d8adf05bcfe1a5460eff6639435f929b17214d6d844b16ae52ca2c8#npm:6.11.0"],
             ["eslint-plugin-prettier", "virtual:8b8650ffaff150512b4e4924415f689b663f1ae0a1dbd797ada324f49d604d9ac408646a0d8adf05bcfe1a5460eff6639435f929b17214d6d844b16ae52ca2c8#npm:3.1.4"],
+            ["eslint-plugin-ramda-env", "virtual:8b8650ffaff150512b4e4924415f689b663f1ae0a1dbd797ada324f49d604d9ac408646a0d8adf05bcfe1a5460eff6639435f929b17214d6d844b16ae52ca2c8#npm:1.0.1"],
             ["prettier", "npm:2.0.5"],
             ["ramda", "npm:0.27.1"],
             ["steph-js", "npm:0.0.2"]
@@ -1981,6 +1987,21 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packagePeers": [
             "eslint",
             "prettier"
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["eslint-plugin-ramda-env", [
+        ["virtual:8b8650ffaff150512b4e4924415f689b663f1ae0a1dbd797ada324f49d604d9ac408646a0d8adf05bcfe1a5460eff6639435f929b17214d6d844b16ae52ca2c8#npm:1.0.1", {
+          "packageLocation": "./.yarn/$$virtual/eslint-plugin-ramda-env-virtual-7e84c429ad/0/cache/eslint-plugin-ramda-env-npm-1.0.1-51e87d347c-804cc18ddb.zip/node_modules/eslint-plugin-ramda-env/",
+          "packageDependencies": [
+            ["eslint-plugin-ramda-env", "virtual:8b8650ffaff150512b4e4924415f689b663f1ae0a1dbd797ada324f49d604d9ac408646a0d8adf05bcfe1a5460eff6639435f929b17214d6d844b16ae52ca2c8#npm:1.0.1"],
+            ["eslint", "npm:7.6.0"],
+            ["ramda", "npm:0.27.1"]
+          ],
+          "packagePeers": [
+            "eslint",
+            "ramda"
           ],
           "linkType": "HARD",
         }]

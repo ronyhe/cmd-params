@@ -1111,6 +1111,7 @@ __metadata:
     eslint: ^7.6.0
     eslint-config-prettier: ^6.11.0
     eslint-plugin-prettier: ^3.1.4
+    eslint-plugin-ramda-env: ^1.0.1
     prettier: ^2.0.5
     ramda: ^0.27.1
     steph-js: ^0.0.2
@@ -1641,6 +1642,16 @@ __metadata:
     eslint: ">=5.0.0"
     prettier: ">=1.13.0"
   checksum: 4e4df155790a20a7ceef9008bbc22a677a8f7e790e9ef613a049a78dfe0b5dc3726afcd4bfd2a8ce41abc88c9a11db029819a722f70b940da32a03629e7f7832
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-ramda-env@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "eslint-plugin-ramda-env@npm:1.0.1"
+  peerDependencies:
+    eslint: ">=0.8.0"
+    ramda: ">=0.6"
+  checksum: 804cc18ddbdae4c21917d0b9a9c902e6d89f7a6c93b2210e3d02e04f751c55ca4418063e5186a99f83c122b879f41d833f499221a3c245b8719b75f9b086448c
   languageName: node
   linkType: hard
 
