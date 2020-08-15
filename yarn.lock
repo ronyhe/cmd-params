@@ -739,6 +739,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"babel-plugin-steph-js@npm:^0.0.1":
+  version: 0.0.1
+  resolution: "babel-plugin-steph-js@npm:0.0.1"
+  peerDependencies:
+    steph-js: "*"
+  checksum: 37fd1b75249568210684e66d6bdc24058a26d2d9978e160cc6e38eb5dcbf400f2f8caf2fbb9501a9fad3d0a06e7dfb2d2a33514cc5e0d35738faa77e73b64e1f
+  languageName: node
+  linkType: hard
+
 "balanced-match@npm:^1.0.0":
   version: 1.0.0
   resolution: "balanced-match@npm:1.0.0"
@@ -1108,13 +1117,14 @@ __metadata:
     "@babel/core": ^7.11.1
     "@babel/register": ^7.10.5
     ava: ^3.11.1
+    babel-plugin-steph-js: ^0.0.1
     eslint: ^7.6.0
     eslint-config-prettier: ^6.11.0
     eslint-plugin-prettier: ^3.1.4
     eslint-plugin-ramda-env: ^1.0.1
     prettier: ^2.0.5
     ramda: ^0.27.1
-    steph-js: ^0.0.2
+    steph-js: ^0.0.3
   languageName: unknown
   linkType: soft
 
@@ -4513,16 +4523,16 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"steph-js@npm:^0.0.2":
-  version: 0.0.2
-  resolution: "steph-js@npm:0.0.2"
+"steph-js@npm:^0.0.3":
+  version: 0.0.3
+  resolution: "steph-js@npm:0.0.3"
   dependencies:
     "@babel/core": ^7.11.1
     husky: ^4.2.5
     ramda: ^0.27.0
   bin:
     steph: src/cli.js
-  checksum: a18a146001e1e76397ce6adb85587301e96139116fc19e2aa88e11a1eef575e7473a1b69ef13fc07d0ac26f4e2fab23f6f5ff8cac5256464c3ba5ddb7dd2fd5f
+  checksum: ea0640b5ef09d18522df4d90bc63118d6433cf3f1591b50112e64e24233de64196f7d8253952217f4bb70a364c2ba64446dd60576172eab5187d8fa7932747dd
   languageName: node
   linkType: hard
 

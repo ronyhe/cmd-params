@@ -12,12 +12,13 @@
     "@babel/core": "^7.11.1",
     "@babel/register": "^7.10.5",
     "ava": "^3.11.1",
+    "babel-plugin-steph-js": "^0.0.1",
     "eslint": "^7.6.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-ramda-env": "^1.0.1",
     "prettier": "^2.0.5",
-    "steph-js": "^0.0.2"
+    "steph-js": "^0.0.3"
   },
   "dependencies": {
     "ramda": "^0.27.1"

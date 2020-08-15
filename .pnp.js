@@ -46,6 +46,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "npm:3.11.1"
       ],
       [
+        "babel-plugin-steph-js",
+        "virtual:8b8650ffaff150512b4e4924415f689b663f1ae0a1dbd797ada324f49d604d9ac408646a0d8adf05bcfe1a5460eff6639435f929b17214d6d844b16ae52ca2c8#npm:0.0.1"
+      ],
+      [
         "eslint",
         "npm:7.6.0"
       ],
@@ -71,7 +75,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ],
       [
         "steph-js",
-        "npm:0.0.2"
+        "npm:0.0.3"
       ]
     ],
     "locationBlacklistData": [
@@ -85,13 +89,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/core", "npm:7.11.1"],
             ["@babel/register", "virtual:8b8650ffaff150512b4e4924415f689b663f1ae0a1dbd797ada324f49d604d9ac408646a0d8adf05bcfe1a5460eff6639435f929b17214d6d844b16ae52ca2c8#npm:7.10.5"],
             ["ava", "npm:3.11.1"],
+            ["babel-plugin-steph-js", "virtual:8b8650ffaff150512b4e4924415f689b663f1ae0a1dbd797ada324f49d604d9ac408646a0d8adf05bcfe1a5460eff6639435f929b17214d6d844b16ae52ca2c8#npm:0.0.1"],
             ["eslint", "npm:7.6.0"],
             ["eslint-config-prettier", "virtual:8b8650ffaff150512b4e4924415f689b663f1ae0a1dbd797ada324f49d604d9ac408646a0d8adf05bcfe1a5460eff6639435f929b17214d6d844b16ae52ca2c8#npm:6.11.0"],
             ["eslint-plugin-prettier", "virtual:8b8650ffaff150512b4e4924415f689b663f1ae0a1dbd797ada324f49d604d9ac408646a0d8adf05bcfe1a5460eff6639435f929b17214d6d844b16ae52ca2c8#npm:3.1.4"],
             ["eslint-plugin-ramda-env", "virtual:8b8650ffaff150512b4e4924415f689b663f1ae0a1dbd797ada324f49d604d9ac408646a0d8adf05bcfe1a5460eff6639435f929b17214d6d844b16ae52ca2c8#npm:1.0.1"],
             ["prettier", "npm:2.0.5"],
             ["ramda", "npm:0.27.1"],
-            ["steph-js", "npm:0.0.2"]
+            ["steph-js", "npm:0.0.3"]
           ],
           "linkType": "SOFT",
         }]
@@ -919,6 +924,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["babel-plugin-steph-js", [
+        ["virtual:8b8650ffaff150512b4e4924415f689b663f1ae0a1dbd797ada324f49d604d9ac408646a0d8adf05bcfe1a5460eff6639435f929b17214d6d844b16ae52ca2c8#npm:0.0.1", {
+          "packageLocation": "./.yarn/$$virtual/babel-plugin-steph-js-virtual-094609abe1/0/cache/babel-plugin-steph-js-npm-0.0.1-454dd4844a-37fd1b7524.zip/node_modules/babel-plugin-steph-js/",
+          "packageDependencies": [
+            ["babel-plugin-steph-js", "virtual:8b8650ffaff150512b4e4924415f689b663f1ae0a1dbd797ada324f49d604d9ac408646a0d8adf05bcfe1a5460eff6639435f929b17214d6d844b16ae52ca2c8#npm:0.0.1"],
+            ["steph-js", "npm:0.0.3"]
+          ],
+          "packagePeers": [
+            "steph-js"
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["balanced-match", [
         ["npm:1.0.0", {
           "packageLocation": "./.yarn/cache/balanced-match-npm-1.0.0-951a2ad706-f515a605fe.zip/node_modules/balanced-match/",
@@ -1326,13 +1344,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/core", "npm:7.11.1"],
             ["@babel/register", "virtual:8b8650ffaff150512b4e4924415f689b663f1ae0a1dbd797ada324f49d604d9ac408646a0d8adf05bcfe1a5460eff6639435f929b17214d6d844b16ae52ca2c8#npm:7.10.5"],
             ["ava", "npm:3.11.1"],
+            ["babel-plugin-steph-js", "virtual:8b8650ffaff150512b4e4924415f689b663f1ae0a1dbd797ada324f49d604d9ac408646a0d8adf05bcfe1a5460eff6639435f929b17214d6d844b16ae52ca2c8#npm:0.0.1"],
             ["eslint", "npm:7.6.0"],
             ["eslint-config-prettier", "virtual:8b8650ffaff150512b4e4924415f689b663f1ae0a1dbd797ada324f49d604d9ac408646a0d8adf05bcfe1a5460eff6639435f929b17214d6d844b16ae52ca2c8#npm:6.11.0"],
             ["eslint-plugin-prettier", "virtual:8b8650ffaff150512b4e4924415f689b663f1ae0a1dbd797ada324f49d604d9ac408646a0d8adf05bcfe1a5460eff6639435f929b17214d6d844b16ae52ca2c8#npm:3.1.4"],
             ["eslint-plugin-ramda-env", "virtual:8b8650ffaff150512b4e4924415f689b663f1ae0a1dbd797ada324f49d604d9ac408646a0d8adf05bcfe1a5460eff6639435f929b17214d6d844b16ae52ca2c8#npm:1.0.1"],
             ["prettier", "npm:2.0.5"],
             ["ramda", "npm:0.27.1"],
-            ["steph-js", "npm:0.0.2"]
+            ["steph-js", "npm:0.0.3"]
           ],
           "linkType": "SOFT",
         }]
@@ -5121,10 +5140,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["steph-js", [
-        ["npm:0.0.2", {
-          "packageLocation": "./.yarn/cache/steph-js-npm-0.0.2-ff0327c574-a18a146001.zip/node_modules/steph-js/",
+        ["npm:0.0.3", {
+          "packageLocation": "./.yarn/cache/steph-js-npm-0.0.3-59b0e03fd7-ea0640b5ef.zip/node_modules/steph-js/",
           "packageDependencies": [
-            ["steph-js", "npm:0.0.2"],
+            ["steph-js", "npm:0.0.3"],
             ["@babel/core", "npm:7.11.1"],
             ["husky", "npm:4.2.5"],
             ["ramda", "npm:0.27.1"]
